@@ -6,10 +6,10 @@
 
 % 2026年1月7日修订：关于PSD计算部分
 
-addpath('G:\codeStorage\matlab\readStarCSV'); % 读取程序模块
+addpath(fileparts(mfilename('fullpath'))); % 读取程序模块
 
 %% 读取数据
-filename = 'G:\codeStorage\matlab\readStarCSV\example.csv';
+filename = 'example_small.csv';
 T = readStarCSV(filename);
 T_copy = T;
 

@@ -11,7 +11,7 @@ MATLAB tools for processing STAR-CCM+ pressure data with FFT analysis.
 ## Usage
 
 ```matlab
-addpath('G:\codeStorage\matlab\readStarCSV');
+addpath('your/local/path/readStarCSV');
 
 % Read data
 T = readStarCSV('example_small.csv');
